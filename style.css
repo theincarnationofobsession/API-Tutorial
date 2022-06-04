@@ -1,0 +1,39 @@
+html {
+  background-color: rgba(67, 255, 215, 0.48);
+}
+.headwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20%;
+}
+.head {
+  height: 20%;
+  max-width: 100%;
+  font-size: 200%;
+  padding: 25px;
+}
+.sub {
+  font-size: 120%;
+  padding-bottom: 15px;
+}
+.line {
+  width: 90%;
+}
+.document {
+  display: flex;
+  flex-direction: row;
+  gap: 350px;
+}
+.displayedimg {
+  padding-left: 15%;
+  padding-top: 5%;
+  width: fit-content;
+}
+.displayedimg img {
+  height: 200px;
+}
+.bodywrapper {
+  font-size: large;
+  letter-spacing: 1px;
+}
